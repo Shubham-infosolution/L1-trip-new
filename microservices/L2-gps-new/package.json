@@ -1,0 +1,33 @@
+{
+  "name": "mqtt-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gps_service.js",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "start": "node gps_service.js",
+    "dev": "nodemon gps_service.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@influxdata/influxdb-client": "^1.35.0",
+    "axios": "^1.18.1",
+    "date-fns": "^4.4.0",
+    "dotenv": "^17.4.2",
+    "ioredis": "^5.11.1",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.6.3",
+    "mqtt": "^5.15.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.23.3",
+    "node-cron": "^4.6.0",
+    "p-queue": "^9.3.1",
+    "topojson-client": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
